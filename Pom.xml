@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.jackson0714.passjava</groupId>
+    <groupId>com.liuzhichao99.passjava</groupId>
     <artifactId>passjava</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>passjava</name>
@@ -15,5 +15,9 @@
         <module>passjava-question</module>
         <module>passjava-study</module>
         <module>passjava-channel</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>passjava-common</module>
     </modules>
+
 </project>
