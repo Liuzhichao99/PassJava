@@ -20,7 +20,7 @@ import java.util.Map;
  * @date 2022-06-23 03:48:31
  */
 @RestController
-@RequestMapping("passjavamember/growthchangehistory")
+@RequestMapping("member/growthchangehistory")
 public class GrowthChangeHistoryController {
     @Autowired
     private GrowthChangeHistoryService growthChangeHistoryService;

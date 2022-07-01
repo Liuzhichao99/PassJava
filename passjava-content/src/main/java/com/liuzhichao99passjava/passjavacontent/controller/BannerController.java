@@ -20,7 +20,7 @@ import java.util.Map;
  * @date 2022-06-23 03:44:31
  */
 @RestController
-@RequestMapping("passjavacontent/banner")
+@RequestMapping("content/banner")
 public class BannerController {
     @Autowired
     private BannerService bannerService;

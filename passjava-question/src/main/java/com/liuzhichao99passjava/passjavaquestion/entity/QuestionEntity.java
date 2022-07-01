@@ -7,6 +7,8 @@ import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
 
+import javax.validation.constraints.Positive;
+
 /**
  * 
  * 
@@ -35,10 +37,12 @@ public class QuestionEntity implements Serializable {
 	/**
 	 * 题目难度等级
 	 */
+	@Positive
 	private Integer level;
 	/**
 	 * 排序
 	 */
+	@Positive
 	private Integer displayOrder;
 	/**
 	 * 副标题

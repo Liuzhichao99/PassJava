@@ -20,7 +20,7 @@ import java.util.Map;
  * @date 2022-06-23 03:51:13
  */
 @RestController
-@RequestMapping("passjavastudy/studytime")
+@RequestMapping("study/studytime")
 public class StudyTimeController {
     @Autowired
     private StudyTimeService studyTimeService;

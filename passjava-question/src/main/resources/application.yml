@@ -1,8 +1,15 @@
+logging:
+  level:
+    com.liuzhichao99.passjava: debug
+
 server:
   port: 11000
 spring:
   application:
     name: passjava-question
+  redis:
+    host: 192.168.1.3
+    port: 6379
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.1.3:3306/passjava_qms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai

@@ -1,6 +1,5 @@
 package com.liuzhichao99passjava.passjavaquestion.controller;
 
-import com.liuzhichao99.common.*;
 import com.liuzhichao99.common.utils.PageUtils;
 import com.liuzhichao99.common.utils.R;
 import com.liuzhichao99passjava.passjavaquestion.entity.TypeEntity;
@@ -21,7 +20,7 @@ import java.util.Map;
  * @date 2022-06-22 18:54:05
  */
 @RestController
-@RequestMapping("passjavaquestion/type")
+@RequestMapping("question/type")
 public class TypeController {
     @Autowired
     private TypeService typeService;

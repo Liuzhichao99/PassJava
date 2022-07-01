@@ -20,7 +20,7 @@ import java.util.Map;
  * @date 2022-06-23 02:24:49
  */
 @RestController
-@RequestMapping("passjavachannel/channel")
+@RequestMapping("channel/channel")
 public class ChannelController {
     @Autowired
     private ChannelService channelService;

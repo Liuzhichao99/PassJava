@@ -21,7 +21,7 @@ import java.util.Map;
  * @date 2022-06-23 03:48:31
  */
 @RestController
-@RequestMapping("passjavamember/member")
+@RequestMapping("member/member")
 public class MemberController {
     @Autowired
     private MemberService memberService;

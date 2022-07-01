@@ -18,5 +18,13 @@ import java.util.Map;
 public interface QuestionService extends IService<QuestionEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    QuestionEntity info(Long id);
+
+    boolean saveQuestion(QuestionEntity question);
+
+    boolean updateQuestion(QuestionEntity question);
+
+    QuestionEntity createQuestion(QuestionEntity question);
 }
 

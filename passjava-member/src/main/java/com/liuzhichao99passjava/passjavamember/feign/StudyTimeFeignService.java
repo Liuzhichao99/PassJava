@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @FeignClient("passjava-study")
 public interface StudyTimeFeignService {
 
-    //@RequestMapping("passjavastudy/studytime/member/list/test")
+    //@RequestMapping("study/studytime/member/list/test")
     //public R getMemberStudyTimeListTest();
 
-    @RequestMapping("passjavastudy/studytime/member/list/test/{id}")
+    @RequestMapping("study/studytime/member/list/test/{id}")
     public R getMemberStudyTimeListTest(@PathVariable("id") Long id);
 }

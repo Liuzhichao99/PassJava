@@ -5,6 +5,7 @@ import com.liuzhichao99.common.utils.PageUtils;
 
 import com.liuzhichao99passjava.passjavaquestion.entity.TypeEntity;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -17,5 +18,14 @@ import java.util.Map;
 public interface TypeService extends IService<TypeEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    List<TypeEntity> getTypeEntityList();
+
+    List<TypeEntity> getTypeEntityListByLock();
+
+    List<TypeEntity> getTypeEntityListByRedisDistributedLock() throws InterruptedException;
+
+    List<TypeEntity> getTypeEntityListByRedissonDistributedLock();
+
 }
 

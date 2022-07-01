@@ -20,7 +20,7 @@ import java.util.Map;
  * @date 2022-06-23 03:44:31
  */
 @RestController
-@RequestMapping("passjavacontent/news")
+@RequestMapping("content/news")
 public class NewsController {
     @Autowired
     private NewsService newsService;
